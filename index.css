@@ -27,16 +27,6 @@ h3{
 
 h2{
     margin: 0px 0px 26px 0px;
-}
-.container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.column {
-
-}
-.score {
     width: 155px;
     height: 120px;
     font-size: 90px;
@@ -44,6 +34,11 @@ h2{
     background: #080001;
     color:#F94F6D;
 }
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 button {
     background: none;
@@ -56,4 +51,9 @@ button {
 
 .numbers {
     color: #9AABD8;
+}
+
+button:hover {
+    transform: scale(1);
+
 }
