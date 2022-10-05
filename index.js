@@ -48,4 +48,6 @@ function increaseGuestScore3(){
 function resetScore () {
     guestScoreEl.textContent = 0;
     homeScoreEl.textContent = 0;
+    guestScore = 0;
+    homeScore = 0;
 }
