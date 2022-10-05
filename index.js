@@ -42,3 +42,10 @@ function increaseGuestScore3(){
     guestScoreEl.textContent = guestScore;
 }
 
+// RESET SCORE
+
+
+function resetScore () {
+    guestScoreEl.textContent = 0;
+    homeScoreEl.textContent = 0;
+}
