@@ -47,13 +47,19 @@ button {
     width: 45px;
     height: 45px;
     margin-right: 9px;
+    cursor: pointer;
 }
+
+button:active {
+    transform: translateY(4px);
+}
+
 
 .numbers {
     color: #9AABD8;
 }
 
 button:hover {
-    transform: scale(1);
+    
 
 }
